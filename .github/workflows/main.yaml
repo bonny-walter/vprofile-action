@@ -19,9 +19,9 @@ jobs:
         run: mvn checkstyle:checkstyle
 
       - name: set java 11
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v3
         with:
-          distribuition: 'temurin'
+          distribuition: 'zulu'
           java-version: '11'
 
       - name: setup sonarqube
