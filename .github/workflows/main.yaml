@@ -25,7 +25,7 @@ jobs:
           java-version: '17'
 
       - name: setup sonarqube
-        uses: warchant/setup-sonar-scanner@v9
+        uses: warchant/setup-sonar-scanner@v7
 
       - name: sonarqube scan 
         run: sonar-scanner 
