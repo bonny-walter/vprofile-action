@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Maven Testing
-        run: mvn Testing
+        run: mvn test
 
       - name: ckeckstyle
         run: mvn checkstyle:checkstyle
