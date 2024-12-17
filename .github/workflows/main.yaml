@@ -88,5 +88,5 @@ jobs:
           cluster-name: ${{ env.EKS_CLUSTER }}
           chart-path: helm/vprofilecharts
           namespace: default
-          values: appimage=${{ secrets.REGISTRY }}/bonny-vprofileapp-repo,apptag=${{ github.run_number }}
+          values: appimage=${{ secrets.REGISTRY }}/bonny-vprofile-app,apptag=${{ github.run_number }}
           name: vprofile-stack
