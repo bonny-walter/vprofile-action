@@ -55,7 +55,7 @@ jobs:
     needs: Testing
     runs-on: ubuntu-latest
     env:
-      AWS_REGION: us-east-2
+      AWS_REGION:  us-east-2
       EKS_CLUSTER: vprofile-eks
     steps:
       - name: Code Checkout
